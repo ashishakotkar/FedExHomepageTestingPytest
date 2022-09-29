@@ -1,0 +1,1 @@
+pytest -s -v -m "regression" testCases/test_rate_transit.py

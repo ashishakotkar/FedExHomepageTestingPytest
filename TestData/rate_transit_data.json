@@ -1,0 +1,32 @@
+{
+    "baseURL": "https://www.fedex.com/en-in/home.html",
+    "master": true,
+    "subscriberParty": {
+        "contact": {
+            "parsedPersonName": {
+                "firstName": "Ram",
+                "lastName": "Prasad"
+            },
+            "companyName ": "FedEx",
+            "phoneNumber": "+9848222888"
+        },
+        "address": {
+            "streetLines": [
+                "Scorpiusó 201"
+            ],
+            "city": "Hoofddorp",
+            "postalCode": "2132 LR",
+            "countryCode": "NL",
+            "residential": false
+        }
+    },
+    "shippingAddress": {
+        "streetLines": [
+            "Scorpius 201"
+        ],
+        "city": "Hoofddorp",
+        "postalCode": "2132 LR",
+        "countryCode": "NL",
+        "residential": false
+    }
+}
