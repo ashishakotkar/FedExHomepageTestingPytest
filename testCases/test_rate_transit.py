@@ -21,7 +21,7 @@ class Test_Rate_Transit_Times:
 
     #setup is method in conftest file that returns driver instance
     @pytest.mark.sanity
-    def test_001_verifyHomePageTitle(self,setup):
+    def test_001_verify_homepage_title(self,setup):
 
         self.logger.info("**************Test_001_Verifying Homepage Title*************************")
 
@@ -35,17 +35,16 @@ class Test_Rate_Transit_Times:
         actual_title = self.driver.title
         expected_title = "FedEx | Express Delivery, Courier & Shipping Services | India"
         if actual_title == expected_title:
-            self.driver.close()
             self.logger.info("**************Home page title verification test passed*************************")
             assert True
 
         else:
             self.driver.save_screenshot(".\\Screenshots\\"+"test_001_verifyHomePageTitle.png")
-            self.driver.close()
             self.logger.info("**************Home page title verification test failed*************************")
             assert False
+        self.driver.close()
 
-
+    #what this test case do?
     def test_002_verifyTodaysDtAvailableShpDtDrpdwn(self,setup):
         self.logger.info("**************test_002_verifyTodaysDtAvailableShpDtDrpdwn*************************")
 
@@ -84,6 +83,7 @@ class Test_Rate_Transit_Times:
             assert False
 
     @pytest.mark.regression
+    @pytest.mark.sanity
     def test_004_verifyDefaultAdditionalCoverBtnVal(self, setup):
         self.driver = setup
         self.driver.implicitly_wait(10)
@@ -102,6 +102,7 @@ class Test_Rate_Transit_Times:
 
     @pytest.mark.regression
     def test_005_verifyItemsInPkgDropdown(self,setup):
+        #should be out of the test case and called from there
         self.driver = setup
         self.driver.implicitly_wait(10)
         self.driver.get(self.baseURL)

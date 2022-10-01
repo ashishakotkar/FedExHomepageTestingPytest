@@ -143,3 +143,72 @@ JavaScript warning: https://www.fedex.com/WEjbFZ/M/N/PFxw0_z7DOLh/uYXYt2GS/VElEc
 1664427180684	Marionette	INFO	Stopped listening on port 61851
 [Parent 24196, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
 [Parent 24196, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1664548079440	geckodriver	INFO	Listening on 127.0.0.1:53668
+1664548079965	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53669" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\A710592\\AppData\\Local\\Temp\\rust_mozprofilevlmseX"
+1664548080977	Marionette	INFO	Marionette enabled
+1664548080993	Marionette	INFO	Listening on port 53676
+Read port: 53676
+WebDriver BiDi listening on ws://127.0.0.1:53669
+1664548081361	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\A710592\\AppData\\Local\\Temp\\rust_mozprofilevlmseX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53669/devtools/browser/9ba04d01-0fec-4ff7-888f-8969557a70f8
+JavaScript warning: https://www.fedex.com/ZWRyLPZMqWjT/2T/PfwgNAuyJt/u19NVpmkV5/CiMWKzkB/a21KQ/k9wblgB, line 1: unreachable code after return statement
+JavaScript warning: https://www.fedex.com/gdl/gdl-fedex.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.fedex.com/ZWRyLPZMqWjT/2T/PfwgNAuyJt/u19NVpmkV5/CiMWKzkB/a21KQ/k9wblgB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.fedex.com/ZWRyLPZMqWjT/2T/PfwgNAuyJt/u19NVpmkV5/CiMWKzkB/a21KQ/k9wblgB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1664548094815	Marionette	INFO	Stopped listening on port 53676
+[Parent 26564, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 26564, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1664549703903	geckodriver	INFO	Listening on 127.0.0.1:62902
+1664549704430	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62903" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\A710592\\AppData\\Local\\Temp\\rust_mozprofile9mSwWF"
+1664549705599	Marionette	INFO	Marionette enabled
+1664549705614	Marionette	INFO	Listening on port 62910
+Read port: 62910
+WebDriver BiDi listening on ws://127.0.0.1:62903
+1664549705989	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\A710592\\AppData\\Local\\Temp\\rust_mozprofile9mSwWF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62903/devtools/browser/60d7cc08-d154-416d-bca8-3f296b4f393b
+JavaScript warning: https://www.fedex.com/ZWRyLPZMqWjT/2T/PfwgNAuyJt/u19NVpmkV5/CiMWKzkB/a21KQ/k9wblgB, line 1: unreachable code after return statement
+JavaScript warning: https://www.fedex.com/gdl/gdl-fedex.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.fedex.com/ZWRyLPZMqWjT/2T/PfwgNAuyJt/u19NVpmkV5/CiMWKzkB/a21KQ/k9wblgB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.fedex.com/ZWRyLPZMqWjT/2T/PfwgNAuyJt/u19NVpmkV5/CiMWKzkB/a21KQ/k9wblgB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1664549721982	Marionette	INFO	Stopped listening on port 62910
+[Parent 28332, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1664549724154	geckodriver	INFO	Listening on 127.0.0.1:59245
+1664549724670	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59246" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\A710592\\AppData\\Local\\Temp\\rust_mozprofiletdVD33"
+1664549725626	Marionette	INFO	Marionette enabled
+1664549725634	Marionette	INFO	Listening on port 59253
+Read port: 59253
+WebDriver BiDi listening on ws://127.0.0.1:59246
+1664549725990	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\A710592\\AppData\\Local\\Temp\\rust_mozprofiletdVD33\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59246/devtools/browser/49d10e7f-39de-4372-a200-d8b4e972ba63
+JavaScript warning: https://www.fedex.com/ZWRyLPZMqWjT/2T/PfwgNAuyJt/u19NVpmkV5/CiMWKzkB/a21KQ/k9wblgB, line 1: unreachable code after return statement
+JavaScript warning: https://www.fedex.com/gdl/gdl-fedex.js, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.fedex.com/ZWRyLPZMqWjT/2T/PfwgNAuyJt/u19NVpmkV5/CiMWKzkB/a21KQ/k9wblgB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.fedex.com/ZWRyLPZMqWjT/2T/PfwgNAuyJt/u19NVpmkV5/CiMWKzkB/a21KQ/k9wblgB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1664549743942	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1664549744203	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://www.fedex.com/etc.clientlibs/fedex-core/clientlibs/clientlib-dependencies.min.7e0397849f3bb9ae52ab042b377426e5.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.fedex.com/ZWRyLPZMqWjT/2T/PfwgNAuyJt/u19NVpmkV5/CiMWKzkB/a21KQ/k9wblgB, line 1: unreachable code after return statement
+JavaScript warning: https://www.fedex.com/ZWRyLPZMqWjT/2T/PfwgNAuyJt/u19NVpmkV5/CiMWKzkB/a21KQ/k9wblgB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.fedex.com/ZWRyLPZMqWjT/2T/PfwgNAuyJt/u19NVpmkV5/CiMWKzkB/a21KQ/k9wblgB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1664549755940	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1664549767850	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1664549771846	Marionette	INFO	Stopped listening on port 59253
