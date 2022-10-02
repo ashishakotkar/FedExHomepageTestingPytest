@@ -26,7 +26,7 @@ class RateTransitPage:
 
     ship_to_resi_chkbox_xpath = "//label[@id='shippingToResidenceAddressLabel']"
 
-    add_cover_no_radio_btn_xpath = "//label[contains(.,'No')]"
+    add_cover_no_radio_btn_xpath = "//input[@id='package-details__liability-coverage-no']"
 
     pkg_dropdown_xpath = "//select[@id='package-details__package-type']"
 
@@ -46,9 +46,9 @@ class RateTransitPage:
 
     add_pkg_link_xpath = "//*[contains(text(),'Add another package')]"
 
-    wgt_req_error_xpath = "//*[contains(text(),' Weight is required.')]"
+    wgt_error_xpath_env = "//*[@id='package-details__weight-error-0']/span"
 
-    max_wgt_error_xpath = "(//*[contains(text(),'Max. weight')])[2]"
+    wgt_error_xpath_yp = "//*[@id='package-details__weight-error-1']/span"
 
     postal_format_error_xpath = "//*[contains(text(),' not a valid format')]"
 
@@ -74,8 +74,8 @@ class RateTransitPage:
         self.driver.find_element("xpath", self.textbox_dest_xpath).clear()
         self.driver.find_element("xpath", self.textbox_dest_xpath).send_keys(toAddress)
 
-    def clickSuggestionFrom(self, postcode):
-        WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//span[.='Chicago, IL 60612, United States']"))).click()
+    def clickSuggestionFrom(self, fromAddress):
+        WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//strong[.='"+fromAddress+"']"))).click()
         # self.driver.find_element("//span[.='Chicago, IL 60612, United States']")
 
 
@@ -135,7 +135,7 @@ class RateTransitPage:
         presentday = datetime.now()
         # # strftime() is to format date according to
         # # the need by converting them to string
-        today = presentday.strftime('%d %B, %Y')
+        today = presentday.strftime('X%d %B, %Y').replace('X0','X').replace('X','')
         return "//*[contains(text(),'" + today + "')]"
 
     def getTomorrowDateXpath(self):
@@ -146,18 +146,18 @@ class RateTransitPage:
         today = presentday.strftime('%d %B,%Y')
         # Get Tomorrow
         nextday = presentday + timedelta(1)
-        tomorrow = nextday.strftime('%d %B, %Y')
+        tomorrow = nextday.strftime('X%d %B, %Y').replace('X0','X').replace('X','')
         return "//*[contains(text(),'" + tomorrow + "')]"
 
-    def enterOrigDestDetails(self, fromAddress, fromPostcode, toAddress):
+    def enterOrigDestDetails(self, fromAddress, toAddress):
         # self.rtp = RateTransitPage(self.driver)
         self.clickCloseOnPopup()
         # self.clickUkEngChkBox()
         # self.clickAcceptCookies()
         self.clickRateTransitBtn()
         self.setFromAddress(fromAddress)
-        self.clickSuggestionFrom(fromPostcode)
-        time.sleep(5)
+        self.clickSuggestionFrom(fromAddress)
+        time.sleep(3)
         self.setToAddress(toAddress)
         self.clickSuggestionTo()
 
@@ -171,11 +171,3 @@ class RateTransitPage:
 
     def clickTrackButton(self):
         self.driver.find_element("xpath", self.track_button_xpath).click()
-
-    def pressTab(self):
-        actions = ActionChains(self.driver)
-        actions.send_keys(Keys.TAB)
-        actions.perform()
-        actions.send_keys(Keys.TAB)
-        actions.perform()
-

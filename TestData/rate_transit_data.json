@@ -1,32 +1,51 @@
 {
-    "baseURL": "https://www.fedex.com/en-in/home.html",
-    "master": true,
-    "subscriberParty": {
-        "contact": {
-            "parsedPersonName": {
-                "firstName": "Ram",
-                "lastName": "Prasad"
-            },
-            "companyName ": "FedEx",
-            "phoneNumber": "+9848222888"
-        },
-        "address": {
-            "streetLines": [
-                "Scorpiusó 201"
-            ],
-            "city": "Hoofddorp",
-            "postalCode": "2132 LR",
-            "countryCode": "NL",
-            "residential": false
-        }
-    },
-    "shippingAddress": {
-        "streetLines": [
-            "Scorpius 201"
-        ],
-        "city": "Hoofddorp",
-        "postalCode": "2132 LR",
-        "countryCode": "NL",
-        "residential": false
-    }
+  "TC1": {
+    "title": "FedEx | Express Delivery, Courier & Shipping Services | India"
+  },
+  "TC2": {
+    "fromAddress": "Dubai - United Arab Emirates",
+    "toAddress": "New Delhi, 110021, India"
+  },
+  "TC3": {
+    "fromAddress": "Dubai - United Arab Emirates",
+    "toAddress": "New Delhi, 110021, India"
+  },
+  "TC4": {
+    "fromAddress": "Chicago, IL 60612, United States",
+    "toAddress": "Warwickshire, CV11 5PA, United Kingdom"
+  },
+  "TC5": {
+    "fromAddress": "Chicago, IL 60612, United States",
+    "toAddress": "Warwickshire, CV11 5PA, United Kingdom",
+    "pkgList": [
+      "Your Packaging\nFedEx 10kg Box\nFedEx 25kg Box\nFedEx Envelope\nFedEx Extra Large Box\nFedEx Large Box\nFedEx Medium Box\nFedEx Pak\nFedEx Small Box\nFedEx Tube"
+    ]
+  },
+  "TC6": {
+    "fromAddress": "Dubai - United Arab Emirates",
+    "toAddress": "New Delhi, 110021, India",
+    "pkgType" : "FedEx Envelope",
+    "errorMsg" : "Max. weight 0.56 kg.",
+    "weight": "2"
+  },
+  "TC7": {
+    "fromAddress": "Chicago, IL 60612, United States",
+    "toAddress": "Warwickshire, CV11 5PA, United Kingdom",
+    "pkgType" : "FedEx Large Box",
+    "weight": "20",
+    "rates_desc": [
+      "Base rate", "Fuel Surcharge", "FedEx pickup", "Peak Surcharge", "Estimated Total"
+    ]
+  },
+  "TC8": {
+    "fromAddress": "Dubai - United Arab Emirates",
+    "toAddress": "New Delhi, 110021, India",
+    "pkgType" : "Your Packaging"
+  },
+  "TC9": {
+    "fromAddress": "Dubai - United Arab Emirates",
+    "toAddress": "New Delhi, 110021, India",
+    "pkgType" : "Your Packaging",
+    "errorMsg" : "Weight is required."
+  }
 }
