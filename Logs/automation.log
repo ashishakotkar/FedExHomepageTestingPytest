@@ -12,3 +12,72 @@ INFO:utilities.customLogger:**************Test_001_Verifying Homepage Title*****
 2022-10-03 11:30:00,017 :INFO : WDM :Get LATEST chromedriver version for google-chrome 105.0.5195
 2022-10-03 11:30:00,828 :INFO : WDM :Driver [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195\chromedriver.exe] found in cache
 2022-10-03 11:30:08,864 :INFO : root :**************Test_001_Verifying Homepage Title*************************
+2022-10-04 09:37:47,323 :INFO : WDM :====== WebDriver manager ======
+2022-10-04 09:37:47,909 :INFO : WDM :Get LATEST chromedriver version for google-chrome 105.0.5195
+2022-10-04 09:37:48,729 :INFO : WDM :About to download new driver from https://chromedriver.storage.googleapis.com/105.0.5195.52/chromedriver_win32.zip
+2022-10-04 09:37:54,294 :INFO : WDM :Driver has been saved in cache [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195]
+2022-10-04 09:38:05,009 :INFO : root :**************Test_001_Verifying Homepage Title*************************
+2022-10-04 09:38:05,191 :INFO : root :**************Ending Test*************************
+2022-10-04 09:38:05,409 :INFO : WDM :====== WebDriver manager ======
+2022-10-04 09:38:06,167 :INFO : WDM :Get LATEST chromedriver version for google-chrome 105.0.5195
+2022-10-04 09:38:07,073 :INFO : WDM :Driver [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195\chromedriver.exe] found in cache
+2022-10-04 09:38:15,832 :INFO : root :**************test_002_todays_dt_available_shpdtdrpdwn*************************
+2022-10-04 09:38:28,274 :INFO : root :**************Entered origin destination details*************************
+2022-10-04 09:38:40,981 :INFO : WDM :====== WebDriver manager ======
+2022-10-04 09:38:41,645 :INFO : WDM :Get LATEST chromedriver version for google-chrome 105.0.5195
+2022-10-04 09:38:42,315 :INFO : WDM :Driver [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195\chromedriver.exe] found in cache
+2022-10-04 09:38:49,336 :INFO : root :**************test_003_tomm_dt_available_shpdtdrpdwn*************************
+2022-10-04 09:39:02,154 :INFO : root :**************Entered origin destination details*************************
+2022-10-04 09:39:04,686 :INFO : root :**************Ending Test*************************
+2022-10-04 09:39:04,849 :INFO : WDM :====== WebDriver manager ======
+2022-10-04 09:39:05,556 :INFO : WDM :Get LATEST chromedriver version for google-chrome 105.0.5195
+2022-10-04 09:39:06,473 :INFO : WDM :Driver [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195\chromedriver.exe] found in cache
+2022-10-04 09:39:13,948 :INFO : root :**************004_default_additional_cover_btn_val*************************
+2022-10-04 09:39:26,620 :INFO : root :**************Entered origin destination details*************************
+2022-10-04 09:39:30,478 :INFO : root :**************Ending Test*************************
+2022-10-04 09:39:30,650 :INFO : WDM :====== WebDriver manager ======
+2022-10-04 09:39:31,519 :INFO : WDM :Get LATEST chromedriver version for google-chrome 105.0.5195
+2022-10-04 09:39:32,559 :INFO : WDM :Driver [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195\chromedriver.exe] found in cache
+2022-10-04 09:39:39,516 :INFO : root :**************005_items_in_pkg_dropdown*************************
+2022-10-04 09:39:51,898 :INFO : root :**************Entered origin destination details*************************
+2022-10-04 09:39:55,529 :INFO : root :**************Ending Test*************************
+2022-10-04 09:39:55,671 :INFO : WDM :====== WebDriver manager ======
+2022-10-04 09:39:56,530 :INFO : WDM :Get LATEST chromedriver version for google-chrome 105.0.5195
+2022-10-04 09:39:57,247 :INFO : WDM :Driver [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195\chromedriver.exe] found in cache
+2022-10-04 09:40:05,888 :INFO : root :**************006_wgt_limit_error_envelope*************************
+2022-10-04 09:40:18,311 :INFO : root :**************Entered origin destination details*************************
+2022-10-04 09:40:20,685 :INFO : root :**************Ending Test*************************
+2022-10-04 09:40:20,823 :INFO : WDM :====== WebDriver manager ======
+2022-10-04 09:40:22,343 :INFO : WDM :Get LATEST chromedriver version for google-chrome 105.0.5195
+2022-10-04 09:40:23,166 :INFO : WDM :Driver [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195\chromedriver.exe] found in cache
+2022-10-04 09:40:31,572 :INFO : root :**************test_007_rates_applied*************************
+2022-10-04 09:40:42,830 :INFO : root :**************Entered origin destination details*************************
+2022-10-04 09:40:50,310 :INFO : root :**************Ending Test*************************
+2022-10-04 09:40:50,482 :INFO : WDM :====== WebDriver manager ======
+2022-10-04 09:40:51,282 :INFO : WDM :Get LATEST chromedriver version for google-chrome 105.0.5195
+2022-10-04 09:40:52,153 :INFO : WDM :Driver [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195\chromedriver.exe] found in cache
+2022-10-04 09:41:05,465 :INFO : root :**************test_008_ln_wd_ht_enabled_for_your_pkg*************************
+2022-10-04 09:41:19,706 :INFO : root :**************Entered origin destination details*************************
+2022-10-04 09:41:22,998 :INFO : root :**************Ending Test*************************
+2022-10-04 09:41:23,155 :INFO : WDM :====== WebDriver manager ======
+2022-10-04 09:41:24,020 :INFO : WDM :Get LATEST chromedriver version for google-chrome 105.0.5195
+2022-10-04 09:41:24,790 :INFO : WDM :Driver [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195\chromedriver.exe] found in cache
+2022-10-04 09:41:32,949 :INFO : root :**************009_verify_wgt_req_error_msg*************************
+2022-10-04 09:41:46,930 :INFO : root :**************Entered origin destination details*************************
+2022-10-04 09:41:57,224 :INFO : WDM :====== WebDriver manager ======
+2022-10-04 09:41:58,135 :INFO : WDM :Get LATEST chromedriver version for google-chrome 105.0.5195
+2022-10-04 09:41:58,912 :INFO : WDM :Driver [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195\chromedriver.exe] found in cache
+2022-10-04 09:42:10,568 :INFO : root :**************010_verify_links_shipping_dropdown*************************
+2022-10-04 09:42:10,981 :INFO : root :**************Ending Test*************************
+2022-10-04 09:42:13,390 :INFO : WDM :====== WebDriver manager ======
+2022-10-04 09:42:13,929 :INFO : WDM :Get LATEST chromedriver version for google-chrome 105.0.5195
+2022-10-04 09:42:14,963 :INFO : WDM :Driver [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195\chromedriver.exe] found in cache
+2022-10-04 09:42:23,115 :INFO : root :**************test_011_verify_links_account_dropdown*************************
+2022-10-04 09:42:23,691 :INFO : root :**************Ending Test*************************
+2022-10-04 09:42:23,813 :INFO : WDM :====== WebDriver manager ======
+2022-10-04 09:42:24,633 :INFO : WDM :Get LATEST chromedriver version for google-chrome 105.0.5195
+2022-10-04 09:42:25,598 :INFO : WDM :Driver [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195\chromedriver.exe] found in cache
+2022-10-04 09:42:32,594 :INFO : root :**************test_0012_rate_currency_service*************************
+2022-10-04 09:42:44,719 :INFO : root :**************Entered origin destination details*************************
+2022-10-04 09:42:47,682 :INFO : root :**************Clicked on show rates button*************************
+2022-10-04 09:42:49,764 :INFO : root :**************Ending Test*************************
