@@ -1,15 +1,10 @@
 import time
 
-from selenium import webdriver
-from selenium.webdriver import Keys
-from selenium.webdriver.common import keys
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from datetime import datetime, timedelta
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.action_chains import ActionChains
 
 
 class RateTransitPage:
@@ -60,6 +55,18 @@ class RateTransitPage:
 
     track_button_xpath = "//button//*[contains(text(),'TRACK')]"
 
+    shipping_dropdown_xpath = "//span[contains(.,'Shipping')]"
+
+    shipping_dropdown_elements_xpath = "(//div[@class='fxg-dropdown__sub-menu'])[1]/div/div//a"
+
+    account_dropdown_xpath = "//span[contains(.,'Account')]"
+
+    account_dropdown_elements_xpath = "(//div[@class='fxg-dropdown__sub-menu'])[4]/div/div//a"
+
+    amount_shown_xpath = "//*[@data-e2e-id='amounts-shown']"
+
+    service_xpath = "(//*[@id='deliveredBy-0-0']/dd)[2]"
+
     # Initializing the driver using the constructor
     # the driver is passed from test cases class to page object class
     # this diver is then used to perform action on the above elements
@@ -75,12 +82,13 @@ class RateTransitPage:
         self.driver.find_element("xpath", self.textbox_dest_xpath).send_keys(toAddress)
 
     def clickSuggestionFrom(self, fromAddress):
-        WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//strong[.='"+fromAddress+"']"))).click()
+        WebDriverWait(self.driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, "//strong[.='" + fromAddress + "']"))).click()
         # self.driver.find_element("//span[.='Chicago, IL 60612, United States']")
 
-
     def clickSuggestionTo(self):
-        WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable((By.XPATH, "//span[@class='fdx-u-font-size--default']"))).click()
+        WebDriverWait(self.driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, "//span[@class='fdx-u-font-size--default']"))).click()
 
     def clickRateTransitBtn(self):
         self.driver.find_element("xpath", self.button_rate_transit_times_xpath).click()
@@ -130,14 +138,16 @@ class RateTransitPage:
         WebDriverWait(self.driver, 20).until(
             EC.element_to_be_clickable((By.XPATH, self.ship_to_resi_chkbox_xpath))).click()
 
+    # to construct xpath of the date dropdown element
     def getTodaysDateXpath(self):
         # Get today's date
         presentday = datetime.now()
         # # strftime() is to format date according to
         # # the need by converting them to string
-        today = presentday.strftime('X%d %B, %Y').replace('X0','X').replace('X','')
+        today = presentday.strftime('X%d %B, %Y').replace('X0', 'X').replace('X', '')
         return "//*[contains(text(),'" + today + "')]"
 
+    # to construct xpath of the date dropdown element
     def getTomorrowDateXpath(self):
         # Get today's date
         presentday = datetime.now()  # or presentday = datetime.today()
@@ -146,7 +156,7 @@ class RateTransitPage:
         today = presentday.strftime('%d %B,%Y')
         # Get Tomorrow
         nextday = presentday + timedelta(1)
-        tomorrow = nextday.strftime('X%d %B, %Y').replace('X0','X').replace('X','')
+        tomorrow = nextday.strftime('X%d %B, %Y').replace('X0', 'X').replace('X', '')
         return "//*[contains(text(),'" + tomorrow + "')]"
 
     def enterOrigDestDetails(self, fromAddress, toAddress):
@@ -171,3 +181,9 @@ class RateTransitPage:
 
     def clickTrackButton(self):
         self.driver.find_element("xpath", self.track_button_xpath).click()
+
+    def clickShippingDropdown(self):
+        self.driver.find_element("xpath", self.shipping_dropdown_xpath).click()
+
+    def clickAccountDropdown(self):
+        self.driver.find_element("xpath", self.account_dropdown_xpath).click()

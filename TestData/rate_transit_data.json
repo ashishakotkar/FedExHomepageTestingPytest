@@ -24,28 +24,66 @@
   "TC6": {
     "fromAddress": "Dubai - United Arab Emirates",
     "toAddress": "New Delhi, 110021, India",
-    "pkgType" : "FedEx Envelope",
-    "errorMsg" : "Max. weight 0.56 kg.",
+    "pkgType": "FedEx Envelope",
+    "errorMsg": "Max. weight 0.56 kg.",
     "weight": "2"
   },
   "TC7": {
     "fromAddress": "Chicago, IL 60612, United States",
     "toAddress": "Warwickshire, CV11 5PA, United Kingdom",
-    "pkgType" : "FedEx Large Box",
+    "pkgType": "FedEx Large Box",
     "weight": "20",
     "rates_desc": [
-      "Base rate", "Fuel Surcharge", "FedEx pickup", "Peak Surcharge", "Estimated Total"
+      "Base rate",
+      "Fuel Surcharge",
+      "FedEx pickup",
+      "Peak Surcharge",
+      "Estimated Total"
     ]
   },
   "TC8": {
     "fromAddress": "Dubai - United Arab Emirates",
     "toAddress": "New Delhi, 110021, India",
-    "pkgType" : "Your Packaging"
+    "pkgType": "Your Packaging"
   },
   "TC9": {
     "fromAddress": "Dubai - United Arab Emirates",
     "toAddress": "New Delhi, 110021, India",
-    "pkgType" : "Your Packaging",
-    "errorMsg" : "Weight is required."
-  }
+    "pkgType": "Your Packaging",
+    "errorMsg": "Weight is required."
+  },
+  "TC10": {
+    "drp_dwn_list": [
+      "Ship Now",
+      "Ship Manager Lite",
+      "Shipping tools",
+      "Rates and Transit Times",
+      "Schedule & Manage Pickups",
+      "Packaging & Shipping Supplies",
+      "E-Commerce",
+      "Get Quote for Heavy Shipment",
+      "ALL SHIPPING SERVICES"
+    ]
+  },
+  "TC11": {
+    "drp_dwn_list": [
+      "FedEx Rate Sheet",
+      "Manage Reporting Online",
+      "FedEx Administration",
+      "My Profile",
+      "Address Book",
+      "View Bills Online",
+      "KYC submission",
+      "Email preferences",
+      "Manage My FedEx Rewards",
+      "OPEN AN ACCOUNT"
+    ]
+  },
+  "TC12": {
+    "fromAddress": "Dubai - United Arab Emirates",
+    "toAddress": "New Delhi, 110021, India",
+    "pkgType": "FedEx 10kg Box",
+    "weight": "10",
+    "currency": "Amounts are shown in AED",
+    "service":"FedEx International Priority®"  }
 }
