@@ -1,69 +1,6 @@
 INFO     WDM:logger.py:11 ====== WebDriver manager ======
 INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 105.0.5195
-INFO     WDM:logger.py:11 About to download new driver from https://chromedriver.storage.googleapis.com/105.0.5195.52/chromedriver_win32.zip
-INFO     WDM:logger.py:11 Driver has been saved in cache [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195]
-INFO     root:test_rate_transit.py:21 **************Test_001_Verifying Homepage Title*************************
-INFO     root:test_rate_transit.py:28 **************Ending Test*************************
-INFO     WDM:logger.py:11 ====== WebDriver manager ======
-INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 105.0.5195
-INFO     WDM:logger.py:11 Driver [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195\chromedriver.exe] found in cache
-INFO     root:test_rate_transit.py:32 **************test_002_todays_dt_available_shpdtdrpdwn*************************
-INFO     root:test_rate_transit.py:39 **************Entered origin destination details*************************
-INFO     WDM:logger.py:11 ====== WebDriver manager ======
-INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 105.0.5195
-INFO     WDM:logger.py:11 Driver [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195\chromedriver.exe] found in cache
-INFO     root:test_rate_transit.py:50 **************test_003_tomm_dt_available_shpdtdrpdwn*************************
-INFO     root:test_rate_transit.py:57 **************Entered origin destination details*************************
-INFO     root:test_rate_transit.py:63 **************Ending Test*************************
-INFO     WDM:logger.py:11 ====== WebDriver manager ======
-INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 105.0.5195
 INFO     WDM:logger.py:11 Driver [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195\chromedriver.exe] found in cache
 INFO     root:test_rate_transit.py:69 **************004_default_additional_cover_btn_val*************************
 INFO     root:test_rate_transit.py:75 **************Entered origin destination details*************************
 INFO     root:test_rate_transit.py:79 **************Ending Test*************************
-INFO     WDM:logger.py:11 ====== WebDriver manager ======
-INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 105.0.5195
-INFO     WDM:logger.py:11 Driver [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195\chromedriver.exe] found in cache
-INFO     root:test_rate_transit.py:84 **************005_items_in_pkg_dropdown*************************
-INFO     root:test_rate_transit.py:92 **************Entered origin destination details*************************
-INFO     root:test_rate_transit.py:98 **************Ending Test*************************
-INFO     WDM:logger.py:11 ====== WebDriver manager ======
-INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 105.0.5195
-INFO     WDM:logger.py:11 Driver [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195\chromedriver.exe] found in cache
-INFO     root:test_rate_transit.py:103 **************006_wgt_limit_error_envelope*************************
-INFO     root:test_rate_transit.py:113 **************Entered origin destination details*************************
-INFO     root:test_rate_transit.py:119 **************Ending Test*************************
-INFO     WDM:logger.py:11 ====== WebDriver manager ======
-INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 105.0.5195
-INFO     WDM:logger.py:11 Driver [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195\chromedriver.exe] found in cache
-INFO     root:test_rate_transit.py:124 **************test_007_rates_applied*************************
-INFO     root:test_rate_transit.py:133 **************Entered origin destination details*************************
-INFO     root:test_rate_transit.py:142 **************Ending Test*************************
-INFO     WDM:logger.py:11 ====== WebDriver manager ======
-INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 105.0.5195
-INFO     WDM:logger.py:11 Driver [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195\chromedriver.exe] found in cache
-INFO     root:test_rate_transit.py:147 **************test_008_ln_wd_ht_enabled_for_your_pkg*************************
-INFO     root:test_rate_transit.py:154 **************Entered origin destination details*************************
-INFO     root:test_rate_transit.py:164 **************Ending Test*************************
-INFO     WDM:logger.py:11 ====== WebDriver manager ======
-INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 105.0.5195
-INFO     WDM:logger.py:11 Driver [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195\chromedriver.exe] found in cache
-INFO     root:test_rate_transit.py:169 **************009_verify_wgt_req_error_msg*************************
-INFO     root:test_rate_transit.py:177 **************Entered origin destination details*************************
-INFO     WDM:logger.py:11 ====== WebDriver manager ======
-INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 105.0.5195
-INFO     WDM:logger.py:11 Driver [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195\chromedriver.exe] found in cache
-INFO     root:test_rate_transit.py:188 **************010_verify_links_shipping_dropdown*************************
-INFO     root:test_rate_transit.py:199 **************Ending Test*************************
-INFO     WDM:logger.py:11 ====== WebDriver manager ======
-INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 105.0.5195
-INFO     WDM:logger.py:11 Driver [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195\chromedriver.exe] found in cache
-INFO     root:test_rate_transit.py:204 **************test_011_verify_links_account_dropdown*************************
-INFO     root:test_rate_transit.py:217 **************Ending Test*************************
-INFO     WDM:logger.py:11 ====== WebDriver manager ======
-INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome 105.0.5195
-INFO     WDM:logger.py:11 Driver [C:\Users\A710592\.wdm\drivers\chromedriver\win32\105.0.5195\chromedriver.exe] found in cache
-INFO     root:test_rate_transit.py:222 **************test_0012_rate_currency_service*************************
-INFO     root:test_rate_transit.py:232 **************Entered origin destination details*************************
-INFO     root:test_rate_transit.py:236 **************Clicked on show rates button*************************
-INFO     root:test_rate_transit.py:239 **************Ending Test*************************

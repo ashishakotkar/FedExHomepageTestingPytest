@@ -16,7 +16,7 @@ class TestRateTransitTimes:
     # setup is method in conftest file that returns driver instance
 
     # This test case verifies the title of homepage
-    @pytest.mark.functional
+    @pytest.mark.regression
     def test_001_homepage_title(self, setup):
         self.logger.info("**************Test_001_Verifying Homepage Title*************************")
         expected_title = (self.data["TC1"]["title"])
